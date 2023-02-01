@@ -1,0 +1,49 @@
+@import url(https://www.cufonfonts.com/font/gravity);
+@import url(http://www.cufonfonts.com/font/merma);
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sobre-mi {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.sobre-mi img {
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.sobre-mi-info {
+    grid-column: 5/10;
+    padding: 3em;
+}
+
+
+.texto {
+    height: 4px;
+    width: 60px;
+    background-color: aqua;
+    margin-top: 5px;
+    margin-bottom: 2em;
+}
+
+.texto p {
+    margin-bottom: 1em;
+}
+
+.texto h1 h2 {
+    font-size: 2em;
+    color: #191c32;
+    font-family: 'Mermaid Bold';
+}
+
+img {
+    padding-left: 83px;
+    padding-top: 80px;
+}
+
+

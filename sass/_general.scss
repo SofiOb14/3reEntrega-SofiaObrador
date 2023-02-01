@@ -1,0 +1,49 @@
+@import url(https://www.cufonfonts.com/font/gravity);
+@font-face {
+    font-family: 'Mermaid Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mermaid Bold'), url('Mermaid1001.woff') format('woff');
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*estilo de texto*/
+p{
+    font-family: 'Gravity Light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    text-align: start;
+    line-height: 20px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-transform:none;
+    color: #1C8995;
+    padding: 20px;
+    margin-right: 400px;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    }
+
+    
+
+
+.inicio{
+    background-image: url("../JPG/fondo\ de\ color.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body{
+background-color: #F1F5FB;
+
+}
+.fondo{
+width: 100%;
+}
+
